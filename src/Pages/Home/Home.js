@@ -105,7 +105,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div style={{ width: '370px', height: '520px' }} className="flex flex-col align-baseline">
-                        <p className='text-2xl font-semibold text-start py-3'>{singleDetail?.Gender}</p>
+                        <p className='text-2xl font-bold text-start py-3'>{singleDetail?.Gender}</p>
                         <img className='w-full h-full' src={imgUrl} alt="" />
                     </div>
                 </div>
@@ -183,22 +183,24 @@ const Home = () => {
                                             </tr>
                                         </thead>
                                         {/* {console.log(Object.keys(detail)[0])} */}
-                                        <tbody className='text-gray-900 font-semibold' >
+                                        <tbody className='text-gray-900 font-semibold ' >
                                             {
-                                                detailsArr.map((detail, idx) => <tr className='mx-0 px-0 bg-gray-200 border border-white border-b-8 hover:bg-gray-400'
+                                                detailsArr.map((detail, idx) => <tr className='mx-0 px-0 bg-gray-200 border border-white border-b-8 hover:bg-gray-400 table-row'
                                                     onClick={() => handleShowDetail(detail[Object.keys(detail)[0]])}
                                                     key={idx}>
                                                     <td className='bg-gray-200'>
-                                                        <p>{Object.keys(detail)[0]}: {detail[Object.keys(detail)[0]].Location}</p>
-                                                        <br />
-                                                        <p>Person detected.</p>
+                                                        <div>
+                                                            <p>{Object.keys(detail)[0]}: {detail[Object.keys(detail)[0]].Location}</p>
+                                                            <br />
+                                                            <p>Person detected.</p>
+                                                        </div>
                                                     </td>
 
                                                     <td className='bg-gray-200 border-b-0 flex-1 align-top'>
-                                                        {/* const date = format(selectedDate, 'PP'); */}
-                                                        {/* <p>{format(parseISO(detail[Object.keys(detail)[0]].Date), 'MM-dd-yyyy HH:mm:ss')} </p> */}
-                                                        <p className='pr-2'>{format(parseISO(detail[Object.keys(detail)[0]].Date), 'MM-dd-yyyy')} {format(parseISO(detail[Object.keys(detail)[0]].Time), 'HH:mm:ss')}</p>
-                                                        {/* <p>{format(parseISO(detail[Object.keys(detail)[0]].Time), 'HH:mm:ss')}</p> */}
+                                                        <div>
+                                                            <p className='pr-1'>{format(parseISO(detail[Object.keys(detail)[0]].Date), 'MM-dd-yyyy')} {format(parseISO(detail[Object.keys(detail)[0]].Time), 'HH:mm:ss')}</p>
+                                                        </div>
+
                                                     </td>
 
                                                 </tr>)

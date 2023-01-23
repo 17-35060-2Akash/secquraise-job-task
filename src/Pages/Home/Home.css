@@ -24,4 +24,10 @@
     height: 20px;
     width: 35%;
     /* border: 1px solid red; */
+
+}
+
+.table-row:hover {
+    transform: scale(0.95);
+    transition: transform 2s ease-out;
 }
