@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+##Useful links:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Firebase Hosting Link: 
+https://secquraise-job-task-49805.web.app
 
-## Available Scripts
+#GitHub Public repo: 
+https://github.com/17-35060-2Akash/secquraise-job-task
 
-In the project directory, you can run:
+##Description:
+This is the project done for SECQURAISE job assesment task. There were some requirements given, and I tried to fullfill it how i understood it in 2 days.
+There was a design given in a .PPTX file and some requirements.
 
-### `npm start`
+#Design: Instructions
+1. The right column - Events should have one entry for each event provided in the excel sheet - Data.
+2. One should be able to scroll the right column - Events
+3. On clicking the event entry, the data on the left side - Image and details of that event should load.
+4. Title of the details section - Image & details - should be the Gender of the person as provided in the record in DATA.xls
+5. The Green & Orange boxes at the top right corner is to display the count of Male & Female entries respectively.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Design: Filter
+On clicking the sandwich icon on the Events column, 3 filter options should load. The three filters should be as detailed below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Location, Gender & Date.
+- Location: Chennai, Hyderabad & Bangalore
+- Gender: Male, Female
+- Date: Give calendar for selection
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
