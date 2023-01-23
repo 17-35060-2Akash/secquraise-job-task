@@ -42,12 +42,12 @@ const Main = () => {
                 gridTemplateColumns: '.5fr 8.5fr'
             }}>
                 {/* left side bar  */}
-                <div className=' bg-[#00b8f1] flex flex-col px-3  justify-between'>
+                <div className=' bg-[#00b8f1] flex flex-col px-3  justify-between' title='Side Menu'>
                     <label htmlFor="dashboarddrawer" tabIndex={2} className="btn btn-ghost mt-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <div>
-                        <label className="btn btn-ghost text-white text-xl mb-5">
+                        <label className="btn btn-ghost text-white text-xl mb-5" title='Logout'>
                             <MdLogout></MdLogout>
                         </label>
 

@@ -133,7 +133,7 @@ const Home = () => {
                                                 <th className='bg-white text-end'>
 
                                                     <div className="dropdown dropdown-end">
-                                                        <label tabIndex={0} className="btn btn-ghost btn-circle avatar p-2"
+                                                        <label tabIndex={0} className="btn btn-ghost btn-circle avatar p-2" title='Filter'
                                                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                                                             style={{ zIndex: '11' }}
                                                         >

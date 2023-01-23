@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCTSpwlRfUtSU4NyDrnsYr-9-SUl79ICD0",
-    authDomain: "secquraise-job-task-49805.firebaseapp.com",
-    databaseURL: "https://secquraise-job-task-49805-default-rtdb.firebaseio.com",
-    projectId: "secquraise-job-task-49805",
-    storageBucket: "secquraise-job-task-49805.appspot.com",
-    messagingSenderId: "56891447009",
-    appId: "1:56891447009:web:fd60590f03030ce74609a0",
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    databaseURL: process.env.REACT_APP_databaseURL,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
